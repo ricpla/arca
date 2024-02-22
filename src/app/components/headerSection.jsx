@@ -56,7 +56,7 @@ export function HeaderSection() {
                     }}
                   />
                 </div>
-                <div>support@arca.com</div>
+                <div>contato@arca.com</div>
               </li>
             </ul>
           </div>

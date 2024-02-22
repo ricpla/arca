@@ -26,7 +26,7 @@ const Footer = () => {
             </span>
           </div>
           <div className="flex flex-col lg:text-[20px] text-end w-[50%]">
-            <span>support@arca.com</span>
+            <span>contato@arca.com</span>
             <span>+ 55 69 3225 4770</span>
             <span>Brasil</span>
             <div className="flex flex-col items-end">
