@@ -7,7 +7,7 @@ export function GalleryComponent({ title, subtitle, paragraph, image, left }) {
       <div className="flex">
         <div className="w-[50%] p-16 flex flex-col gap-4">
           <div className="opacity-70 font-bold text-lg">{subtitle}</div>
-          <div className="text-6xl font-black">{title}</div>
+          <div className="text-5xl xl:text-6xl font-black">{title}</div>
           <div className="text-lg">{paragraph}</div>
         </div>
         <div className="w-[50%] relative">
@@ -23,7 +23,7 @@ export function GalleryComponent({ title, subtitle, paragraph, image, left }) {
         </div>
         <div className="w-[50%] p-16 flex flex-col gap-4">
           <div className="opacity-70 font-bold text-lg">{subtitle}</div>
-          <div className="text-6xl font-black">{title}</div>
+          <div className="text-5xl xl:text-6xl font-black">{title}</div>
           <div className="text-lg">{paragraph}</div>
         </div>
       </div>

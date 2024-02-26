@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <>
-      <main className="main-container bg-black hidden xl:flex flex-col">
+      <main className="main-container bg-black hidden md:flex flex-col">
         <HeaderSection />
         <ClientsSection />
         <GallerySection />
@@ -16,7 +16,7 @@ export default function Home() {
         <ContactUs />
         <Footer />
       </main>
-      <div className="bg-black h-screen w-full text-5xl font-black flex items-center justify-center xl:hidden">
+      <div className="bg-black h-screen w-full text-5xl font-black flex items-center justify-center md:hidden">
         ARCA
       </div>
     </>
