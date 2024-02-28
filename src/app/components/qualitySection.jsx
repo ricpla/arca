@@ -5,15 +5,15 @@ import { BiTimer } from "react-icons/bi";
 
 export function QualitySection() {
   return (
-    <div className="relative z-10 bg-[#141414] p-20 flex flex-col gap-6">
+    <div className="relative z-10 bg-[#141414] p-10 lg:p-20 flex flex-col gap-6">
       <div className="text-center">
         Conheça os diferenciais que definem a ARCA Mineração no setor de
         mineração
       </div>
-      <div className="text-6xl font-bold text-center">
+      <div className="text-3xl sm:text-5xl lg:text-6xl font-bold text-center">
         Forjando qualidade, inovação e sucesso
       </div>
-      <div className="flex items-start justify-between py-12 gap-5">
+      <div className="flex flex-col lg:flex-row items-start justify-between sm:py-12 gap-5">
         <QualityItem
           icon={<MdOutlineStarHalf />}
           title={"Compromisso com a qualidade do produto"}

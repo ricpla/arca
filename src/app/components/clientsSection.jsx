@@ -29,8 +29,8 @@ export function ClientsSection() {
     console.log(width);
 
     return (
-      <div className="relative z-10 bg-[#141414] p-20 flex flex-col gap-6">
-        <div className="text-4xl font-bold text-justify">
+      <div className="relative z-10 bg-[#141414] p-10 lg:p-20 flex flex-col gap-6">
+        <div className="text-2xl lg:text-4xl font-bold text-justify">
           Estamos procurando sócios estratégicos que compartilhem nossa visão de
           mineração responsável e crescimento sustentável. A ARCA Mineração é
           seu parceiro de confiança no setor de mineração, oferecendo
